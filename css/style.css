@@ -10,6 +10,7 @@
 :root {
     --discount-label-color: #00875A;
     --sustainability-label-color: #EB0037;
+    --like-dimensions: 1.5rem;
 }
 
 
@@ -30,6 +31,16 @@
     height: 20rem;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.like {
+    width: var(--like-dimensions);
+    height: var(--like-dimensions);
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
 }
 
 .img-relaxed-levi {
