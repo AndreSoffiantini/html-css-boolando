@@ -11,6 +11,7 @@
     --discount-label-color: #EB0037;
     --sustainability-label-color: #00875A;
     --like-dimensions: 1.5rem;
+    --description-font-size: 0.8rem;
 }
 
 
@@ -64,10 +65,36 @@
     background-color: var(--sustainability-label-color);
 }
 
+.product-description {
+    text-align: left;
+    margin: 0.3rem 0;
+    font-size: var(--description-font-size);
+}
+
+
+/* .brand {
+    font-size: 0.8rem;
+} */
+
+.product-name {
+    font-weight: bolder;
+}
+
+.discounted-price {
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
 .img-relaxed-levi {
-    background-image: url(/img/1.webp);
+    background-image: url("./img/1b.webp");
+    ;
 }
 
 .img-relaxed-levi:hover {
-    background-image: url(/img/1b.webp);
+    background-image: url("./img/1b.webp");
+    ;
 }
