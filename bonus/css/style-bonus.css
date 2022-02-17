@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global */
+
+:root {
+    --discount-label-color: #EB0037;
+    --sustainability-label-color: #00875A;
+    --font-size: 0.8rem;
+}
+
+
+/**********
+    Body
+**********/
+
+.products {
+    margin: 2rem;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.product-image {
+    width: 17rem;
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.like {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: rgba(233, 14, 14, 0.678);
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4px;
+    visibility: hidden;
+}
+
+.product-image:hover>.like {
+    visibility: visible;
+}
+
+.labels {
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+}
+
+.label {
+    display: inline-block;
+    color: white;
+    padding: 0.2rem;
+    font-weight: bold;
+    font-size: var(--font-size);
+}
+
+.discount {
+    background-color: var(--discount-label-color);
+}
+
+.sustainability {
+    background-color: var(--sustainability-label-color);
+}
+
+.product-description {
+    text-align: left;
+    margin: 0.3rem 0;
+    font-size: var(--font-size);
+}
+
+.product-name {
+    font-weight: bolder;
+}
+
+.current-price {
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+
+/********** Images **********/
+
+
+/***** First row *****/
+
+
+/* RELAXED FIT TEE UNISEX */
+
+.img-relaxed-levi {
+    background-image: url("../img/1.webp");
+    ;
+}
+
+.img-relaxed-levi:hover {
+    background-image: url("../img/1b.webp");
+}
+
+
+/* /RELAXED FIT TEE UNISEX */
+
+
+/* Roses Tee */
+
+.img-roses-guess {
+    background-image: url("../img/2.webp");
+    ;
+}
+
+.img-roses-guess:hover {
+    background-image: url("../img/2b.webp");
+}
+
+
+/* /Roses Tee */
+
+
+/* Voglia di colori pastello */
+
+.img-pastello-czf {
+    background-image: url("../img/3.webp");
+    ;
+}
+
+.img-pastello-czf:hover {
+    background-image: url("../img/3b.webp");
+}
+
+
+/* /Voglia di colori pastello */
+
+
+/***** /First row *****/
+
+
+/***** Second row *****/
+
+
+/* TEE UNISEX */
+
+.img-unisex-levi {
+    background-image: url("../img/4.webp");
+    ;
+}
+
+.img-unisex-levi:hover {
+    background-image: url("../img/4b.webp");
+}
+
+
+/* /TEE UNISEX */
+
+
+/* STRIPE BODICE */
+
+.img-stripe-maya {
+    background-image: url("../img/5.webp");
+    ;
+}
+
+.img-stripe-maya:hover {
+    background-image: url("../img/5b.webp");
+}
+
+
+/* /STRIPE BODICE */
+
+
+/* Maglione-black */
+
+.img-maglione-esprit {
+    background-image: url("../img/6.webp");
+    ;
+}
+
+.img-maglione-esprit:hover {
+    background-image: url("../img/6b.webp");
+}
+
+
+/* /Maglione-black */
+
+
+/***** /Second row *****/
