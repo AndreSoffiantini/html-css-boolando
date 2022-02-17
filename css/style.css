@@ -8,8 +8,8 @@
 /* Global */
 
 :root {
-    --discount-label-color: #00875A;
-    --sustainability-label-color: #EB0037;
+    --discount-label-color: #EB0037;
+    --sustainability-label-color: #00875A;
     --like-dimensions: 1.5rem;
 }
 
@@ -41,6 +41,27 @@
     position: absolute;
     right: 0;
     top: 0.5rem;
+}
+
+.labels {
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+}
+
+.label {
+    display: inline-block;
+    color: white;
+    padding: 0.4rem;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: var(--discount-label-color);
+}
+
+.sustainability {
+    background-color: var(--sustainability-label-color);
 }
 
 .img-relaxed-levi {
