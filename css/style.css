@@ -10,8 +10,7 @@
 :root {
     --discount-label-color: #EB0037;
     --sustainability-label-color: #00875A;
-    --like-dimensions: 1.5rem;
-    --description-font-size: 0.8rem;
+    --font-size: 0.8rem;
 }
 
 
@@ -20,24 +19,26 @@
 **********/
 
 .products {
+    margin: 2rem;
     text-align: center;
 }
 
 .product {
     display: inline-block;
+    margin-right: 0.5rem;
 }
 
 .product-image {
-    width: 15rem;
-    height: 20rem;
+    width: 17rem;
+    height: 25rem;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .like {
-    width: var(--like-dimensions);
-    height: var(--like-dimensions);
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: white;
     position: absolute;
     right: 0;
@@ -54,8 +55,9 @@
 .label {
     display: inline-block;
     color: white;
-    padding: 0.4rem;
+    padding: 0.2rem;
     font-weight: bold;
+    font-size: var(--font-size);
 }
 
 .discount {
@@ -69,19 +71,14 @@
 .product-description {
     text-align: left;
     margin: 0.3rem 0;
-    font-size: var(--description-font-size);
+    font-size: var(--font-size);
 }
-
-
-/* .brand {
-    font-size: 0.8rem;
-} */
 
 .product-name {
     font-weight: bolder;
 }
 
-.discounted-price {
+.current-price {
     color: red;
     font-weight: bold;
 }
