@@ -5,7 +5,7 @@
 }
 
 
-/* Utility */
+/* Global */
 
 :root {
     --discount-label-color: #00875A;
@@ -28,7 +28,14 @@
 .product-image {
     width: 15rem;
     height: 20rem;
-    background-image: url(/img/1.webp);
     background-size: cover;
     background-position: center;
+}
+
+.img-relaxed-levi {
+    background-image: url(/img/1.webp);
+}
+
+.img-relaxed-levi:hover {
+    background-image: url(/img/1b.webp);
 }
