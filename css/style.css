@@ -1,3 +1,35 @@
-h1 {
-    color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utility */
+
+:root {
+    --discount-label-color: #00875A;
+    --sustainability-label-color: #EB0037;
+}
+
+
+/**********
+    Body
+**********/
+
+.products {
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+}
+
+.product-image {
+    width: 10rem;
+    height: 10rem;
+    background-image: url(/img/1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
